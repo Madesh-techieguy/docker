@@ -1,0 +1,2133 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R ] /Count 17 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 20 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 21 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 22 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 23 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 24 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 25 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 26 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 27 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 28 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 29 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 30 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 31 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 32 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 33 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 34 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 35 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 36 0 R /Resources << /Font << /F1 37 0 R >> >> >>
+endobj
+20 0 obj
+<< /Length 2264 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+() Tj
+T*
+(DOCKER DEVOPS ENGINEER CHEAT SHEET) Tj
+T*
+(===================================) Tj
+T*
+() Tj
+T*
+(Legend for explanations) Tj
+T*
+(------------------------) Tj
+T*
+(For every command you will see:) Tj
+T*
+(  Command pattern   : The general syntax.) Tj
+T*
+(  Word-by-word      : Explanation of each word/flag in that command.) Tj
+T*
+(  Example           : A realistic DevOps-style example.) Tj
+T*
+(  Why it's used     : When/why a DevOps engineer runs it in real life.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(1. Check Docker installation and version) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker --version) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> The Docker command-line client.) Tj
+T*
+(  --version   -> Prints the Docker client version information.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker --version) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To verify that Docker is installed and accessible in PATH.) Tj
+T*
+(  - To check which version is running before debugging, upgrading, or matching) Tj
+T*
+(    versions across environments.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(2. Get general Docker system info) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker info) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker   -> Docker CLI.) Tj
+T*
+(  info     -> Shows detailed information about the Docker daemon and system) Tj
+T*
+(              \(number of containers, images, storage driver, etc.\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker info) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To quickly see how many containers/images are present.) Tj
+T*
+(  - To check storage drivers, cgroup drivers, root directory, etc.) Tj
+T*
+(  - Often used when debugging Docker host issues.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(3. List local images) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+21 0 obj
+<< /Length 2150 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(Command pattern:) Tj
+T*
+(  docker images) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker   -> Docker CLI.) Tj
+T*
+(  images   -> Lists all images stored locally on this Docker host.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker images) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see which images are already downloaded/built.) Tj
+T*
+(  - To check image sizes and tags before cleaning up or pushing.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(4. Search images on Docker Hub) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker search IMAGE_NAME) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker        -> Docker CLI.) Tj
+T*
+(  search        -> Searches image names on Docker Hub \(or configured registry\).) Tj
+T*
+(  IMAGE_NAME    -> Name or keyword of the image to search for.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker search nginx) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To discover official or popular community images for a technology.) Tj
+T*
+(  - To see basic info like stars and descriptions before pulling.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(5. Pull an image from registry) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker pull IMAGE[:TAG]) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker        -> Docker CLI.) Tj
+T*
+(  pull          -> Download an image from a registry.) Tj
+T*
+(  IMAGE         -> The image name \(e.g., nginx, httpd, ubuntu\).) Tj
+T*
+(  :TAG          -> Optional tag \(version\), defaults to "latest" if omitted.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker pull nginx:1.25) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To download a specific image version before running containers.) Tj
+T*
+(  - Ensures all environments are using the same image tag.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(6. Remove a local image) Tj
+T*
+ET
+endstream
+endobj
+22 0 obj
+<< /Length 2457 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker rmi IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker   -> Docker CLI.) Tj
+T*
+(  rmi      -> Remove image \(delete it from local cache\).) Tj
+T*
+(  IMAGE    -> Image name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker rmi nginx:1.25) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To clean up unused images and free disk space.) Tj
+T*
+(  - To remove wrong/broken images before pulling the correct one.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(7. Run a container \(interactive + detached + named\)) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker run -itd --name CONTAINER_NAME IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker          -> Docker CLI.) Tj
+T*
+(  run             -> Create and start a new container from an image.) Tj
+T*
+(  -i              -> Keep STDIN open \(interactive\).) Tj
+T*
+(  -t              -> Allocate a pseudo-TTY \(terminal\).) Tj
+T*
+(  -d              -> Run container in detached \(background\) mode.) Tj
+T*
+(  --name          -> Assign a custom name to the container.) Tj
+T*
+(  CONTAINER_NAME  -> The custom container name you choose.) Tj
+T*
+(  IMAGE           -> The image to run \(e.g., httpd, nginx, ubuntu\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker run -itd --name ct1 httpd) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - Quickly start a background web server with a readable name.) Tj
+T*
+(  - -itd is common when you want a container that you can exec into later,) Tj
+T*
+(    but that runs in the background as a service.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(8. Run a container with port mapping) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker run -d --name CONTAINER_NAME -p HOST_PORT:CONTAINER_PORT IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker               -> Docker CLI.) Tj
+T*
+(  run                  -> Create and start a container.) Tj
+T*
+(  -d                   -> Detached mode \(run in background\).) Tj
+T*
+(  --name               -> Set container name.) Tj
+T*
+(  CONTAINER_NAME       -> Custom container name.) Tj
+T*
+ET
+endstream
+endobj
+23 0 obj
+<< /Length 2441 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(  -p                   -> Publish/forward container port to host.) Tj
+T*
+(  HOST_PORT:CONTAINER_PORT) Tj
+T*
+(                       -> HOST_PORT is port on host machine,) Tj
+T*
+(                          CONTAINER_PORT is port inside the container.) Tj
+T*
+(  IMAGE                -> Image name.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker run -d --name web1 -p 8080:80 nginx) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To expose services running inside the container to the outside world.) Tj
+T*
+(  - Standard DevOps pattern for running web apps, APIs, dashboards, etc.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(9. Run a container with a bind mount \(host directory into container\)) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker run -d --name CONTAINER_NAME -v HOST_DIR:CONTAINER_DIR IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker               -> Docker CLI.) Tj
+T*
+(  run                  -> Create and start container.) Tj
+T*
+(  -d                   -> Detached mode.) Tj
+T*
+(  --name               -> Container name.) Tj
+T*
+(  CONTAINER_NAME       -> Your chosen name.) Tj
+T*
+(  -v                   -> Volume/bind mount flag.) Tj
+T*
+(  HOST_DIR:CONTAINER_DIR) Tj
+T*
+(                       -> HOST_DIR is a path on host,) Tj
+T*
+(                          CONTAINER_DIR is path inside container.) Tj
+T*
+(  IMAGE                -> Image to run.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker run -d --name web2 -p 8081:80 -v /opt/html:/usr/share/nginx/html nginx) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To persist data or serve local application code into containers.) Tj
+T*
+(  - Common for development setups or when external config is stored on host.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(10. List running containers) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker ps) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker   -> Docker CLI.) Tj
+T*
+(  ps       -> "Process status" style listing of containers \(running only\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker ps) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see currently running containers, names, IDs, ports, and uptime.) Tj
+T*
+ET
+endstream
+endobj
+24 0 obj
+<< /Length 2018 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(  - First step when debugging "is my container running?" questions.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(11. List ALL containers \(running + stopped\)) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker ps -a) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker   -> Docker CLI.) Tj
+T*
+(  ps       -> List containers.) Tj
+T*
+(  -a       -> Show all containers \(including exited/stopped\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker ps -a) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see history of containers, including crashed or stopped ones.) Tj
+T*
+(  - Helpful when cleaning up or investigating failures.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(12. Stop a running container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker stop CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  stop        -> Gracefully stop a running container \(SIGTERM, then SIGKILL\).) Tj
+T*
+(  CONTAINER   -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker stop web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To gracefully stop a service/container before redeploy, upgrade or debug.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(13. Start a stopped container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker start CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  start       -> Start an existing, stopped container.) Tj
+T*
+(  CONTAINER   -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker start web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+ET
+endstream
+endobj
+25 0 obj
+<< /Length 2005 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(  - To bring back a previously created container without creating a new one.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(14. Restart a container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker restart CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  restart     -> Stop and then start the container.) Tj
+T*
+(  CONTAINER   -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker restart web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - Quick way to apply environment changes or recover from transient issues.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(15. Remove a container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker rm CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  rm          -> Remove \(delete\) a container.) Tj
+T*
+(  CONTAINER   -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker rm web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To clean up stopped containers and free names/resources.) Tj
+T*
+(  - Typical step after testing or replacing deployments.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(16. Force remove a running container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker rm -f CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  rm          -> Remove container.) Tj
+T*
+(  -f          -> Force removal \(sends SIGKILL if needed\).) Tj
+T*
+(  CONTAINER   -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker rm -f web1) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+26 0 obj
+<< /Length 2322 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(Why it's used:) Tj
+T*
+(  - When a container does not stop gracefully or is stuck/hung.) Tj
+T*
+(  - Useful in emergency cleanup scripts, but use with care.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(17. View logs of a container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker logs CONTAINER) Tj
+T*
+(  docker logs -f CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  logs        -> Show logs \(STDOUT/STDERR\) of a container.) Tj
+T*
+(  -f          -> "Follow" the logs in realtime \(like tail -f\).) Tj
+T*
+(  CONTAINER   -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker logs -f web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To debug application behavior inside containers.) Tj
+T*
+(  - -f is heavily used for live debugging and monitoring during incidents.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(18. Execute a command inside a running container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker exec -it CONTAINER COMMAND [ARGS...]) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker        -> Docker CLI.) Tj
+T*
+(  exec          -> Run a command in an already running container.) Tj
+T*
+(  -i            -> Keep STDIN open.) Tj
+T*
+(  -t            -> Allocate a pseudo-TTY.) Tj
+T*
+(  CONTAINER     -> Container name or ID.) Tj
+T*
+(  COMMAND       -> The command to run \(e.g., bash, sh\).) Tj
+T*
+(  [ARGS...]     -> Optional extra arguments for that command.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker exec -it web1 /bin/bash) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To "ssh into" a container for debugging \(without actual SSH\).) Tj
+T*
+(  - To run inspection commands like ls, ps, curl inside container context.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(19. Attach to a running container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker attach CONTAINER) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+27 0 obj
+<< /Length 2392 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  attach      -> Attach your terminal to a running container's main process.) Tj
+T*
+(  CONTAINER   -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker attach web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see live output or interact with the main process \(if it is interactive\).) Tj
+T*
+(  - Less commonly used than exec for debugging, but useful in some scenarios.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(20. Copy files between host and container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker cp SRC_PATH CONTAINER:DEST_PATH) Tj
+T*
+(  docker cp CONTAINER:SRC_PATH DEST_PATH) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker              -> Docker CLI.) Tj
+T*
+(  cp                  -> Copy files/directories.) Tj
+T*
+(  SRC_PATH            -> File or directory path on host or container.) Tj
+T*
+(  CONTAINER:DEST_PATH -> Destination path inside container.) Tj
+T*
+(  CONTAINER:SRC_PATH  -> Source inside container.) Tj
+T*
+(  DEST_PATH           -> Destination on host.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker cp web1:/var/log/nginx/access.log ./access.log) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To extract logs, config files, or artifacts from containers.) Tj
+T*
+(  - To copy new config or scripts into running containers \(for debugging\).) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(21. Inspect container details \(low-level JSON\)) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker inspect CONTAINER_OR_IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker                  -> Docker CLI.) Tj
+T*
+(  inspect                 -> Show detailed JSON metadata.) Tj
+T*
+(  CONTAINER_OR_IMAGE      -> Name or ID of container or image.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker inspect web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see container IP, mounts, env variables, entrypoint, etc.) Tj
+T*
+(  - Often used in scripts and debugging network/storage issues.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+ET
+endstream
+endobj
+28 0 obj
+<< /Length 2143 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(22. Show processes running inside a container) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker top CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  top         -> Show running processes \(like Linux top/ps\).) Tj
+T*
+(  CONTAINER   -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker top web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see what processes are running inside the container.) Tj
+T*
+(  - Quick health check during incidents.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(23. Show resource usage for containers) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker stats) Tj
+T*
+(  docker stats CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  stats       -> Live stream of CPU, memory, network, I/O usage.) Tj
+T*
+(  CONTAINER   -> Optional specific container name/ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker stats web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To monitor performance and resource usage in real-time.) Tj
+T*
+(  - Helpful to identify memory leaks or high CPU containers.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(24. Build an image from a Dockerfile) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker build -t IMAGE_NAME[:TAG] PATH) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker               -> Docker CLI.) Tj
+T*
+(  build                -> Build an image from a Dockerfile context.) Tj
+T*
+(  -t                   -> Tag for the resulting image.) Tj
+T*
+(  IMAGE_NAME[:TAG]     -> Name \(and optional tag\) of the image to create.) Tj
+T*
+(  PATH                 -> Build context path \(directory with Dockerfile\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker build -t myapp:1.0 .) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+29 0 obj
+<< /Length 2321 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(Why it's used:) Tj
+T*
+(  - To create custom application images from source code and Dockerfile.) Tj
+T*
+(  - Standard DevOps workflow for CI/CD pipelines.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(25. Tag an image) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker tag SOURCE_IMAGE TARGET_IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker          -> Docker CLI.) Tj
+T*
+(  tag             -> Assign a new tag \(name\) to an existing image.) Tj
+T*
+(  SOURCE_IMAGE    -> Existing image name or ID.) Tj
+T*
+(  TARGET_IMAGE    -> New repository:tag name \(often with registry prefix\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker tag myapp:1.0 myregistry.example.com/team/myapp:1.0) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To prepare images with proper registry/repository names before pushing.) Tj
+T*
+(  - To create versioned tags for releases.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(26. Push an image to a registry) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker push IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker     -> Docker CLI.) Tj
+T*
+(  push       -> Upload an image to a registry.) Tj
+T*
+(  IMAGE      -> Image name \(must include registry/repo if not Docker Hub\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker push myregistry.example.com/team/myapp:1.0) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To publish images so that other environments \(staging, prod, k8s nodes\)) Tj
+T*
+(    can pull and run them.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(27. Login / Logout to a registry) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command patterns:) Tj
+T*
+(  docker login [REGISTRY]) Tj
+T*
+(  docker logout [REGISTRY]) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  login       -> Authenticate to a registry with username/password or token.) Tj
+T*
+(  logout      -> Clear local auth credentials for registry.) Tj
+T*
+ET
+endstream
+endobj
+30 0 obj
+<< /Length 2176 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(  [REGISTRY]  -> Optional registry hostname \(default is Docker Hub\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker login myregistry.example.com) Tj
+T*
+(  docker logout myregistry.example.com) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - Required before pushing/pulling private images.) Tj
+T*
+(  - DevOps uses this in automation scripts and CI/CD.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(28. List networks) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker network ls) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker        -> Docker CLI.) Tj
+T*
+(  network       -> Manage container networks.) Tj
+T*
+(  ls            -> List objects \(here: networks\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker network ls) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see bridge, host, overlay, and custom networks.) Tj
+T*
+(  - Useful when debugging connectivity between containers.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(29. Create a user-defined bridge network) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker network create NETWORK_NAME) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker        -> Docker CLI.) Tj
+T*
+(  network       -> Network management command group.) Tj
+T*
+(  create        -> Create a new network.) Tj
+T*
+(  NETWORK_NAME  -> Name of the new Docker network.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker network create app-net) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To isolate applications on custom networks and control DNS/aliases.) Tj
+T*
+(  - Important for multi-container app topologies.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(30. Connect / disconnect containers to network) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command patterns:) Tj
+T*
+(  docker network connect NETWORK_NAME CONTAINER) Tj
+T*
+ET
+endstream
+endobj
+31 0 obj
+<< /Length 2004 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(  docker network disconnect NETWORK_NAME CONTAINER) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker         -> Docker CLI.) Tj
+T*
+(  network        -> Network management group.) Tj
+T*
+(  connect        -> Attach container to network.) Tj
+T*
+(  disconnect     -> Detach container from network.) Tj
+T*
+(  NETWORK_NAME   -> Target network.) Tj
+T*
+(  CONTAINER      -> Container name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker network connect app-net web1) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To dynamically connect services to different networks.) Tj
+T*
+(  - Helpful when restructuring topology without recreating containers.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(31. List volumes) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker volume ls) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker      -> Docker CLI.) Tj
+T*
+(  volume      -> Volume management group.) Tj
+T*
+(  ls          -> List volumes.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker volume ls) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see named volumes used for persistent data.) Tj
+T*
+(  - Useful in backup and cleanup operations.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(32. Create a named volume) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker volume create VOLUME_NAME) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker        -> Docker CLI.) Tj
+T*
+(  volume        -> Volume management group.) Tj
+T*
+(  create        -> Create a new named volume.) Tj
+T*
+(  VOLUME_NAME   -> Name of the volume.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker volume create db-data) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To persist databases or stateful data beyond container lifecycle.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+32 0 obj
+<< /Length 2407 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(-------------------------------------------------------------------------------) Tj
+T*
+(33. Run container with a named volume) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker run -d --name CONTAINER_NAME -v VOLUME_NAME:CONTAINER_DIR IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker                         -> Docker CLI.) Tj
+T*
+(  run                            -> Start a new container.) Tj
+T*
+(  -d                             -> Detached mode.) Tj
+T*
+(  --name                         -> Container name.) Tj
+T*
+(  CONTAINER_NAME                 -> Name of container.) Tj
+T*
+(  -v                             -> Volume mount flag.) Tj
+T*
+(  VOLUME_NAME:CONTAINER_DIR      -> Named volume to container path mapping.) Tj
+T*
+(  IMAGE                          -> Image name.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker run -d --name db1 -v db-data:/var/lib/mysql mysql:8) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To keep database data across container restarts/redeployments.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(34. System-wide Docker disk usage) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker system df) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker        -> Docker CLI.) Tj
+T*
+(  system        -> Manage Docker as a whole \(system-level\).) Tj
+T*
+(  df            -> Disk usage summary \("disk free" style\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker system df) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To see how much space images, containers, volumes, and build cache use.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(35. Prune unused data \(careful!\)) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command patterns:) Tj
+T*
+(  docker system prune) Tj
+T*
+(  docker system prune -a) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker          -> Docker CLI.) Tj
+T*
+(  system          -> System management group.) Tj
+T*
+(  prune           -> Remove unused data \(containers, networks, build cache\).) Tj
+T*
+(  -a              -> Also remove unused images \(not just dangling ones\).) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+33 0 obj
+<< /Length 2007 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(Example:) Tj
+T*
+(  docker system prune -a) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To clean up disk space on Docker hosts.) Tj
+T*
+(  - Common DevOps maintenance task; dangerous in production if misused.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(36. Remove all stopped containers) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker container prune) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker       -> Docker CLI.) Tj
+T*
+(  container    -> Container management group.) Tj
+T*
+(  prune        -> Remove all stopped containers after confirmation.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker container prune) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To clean up old/stopped containers regularly.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(37. Remove unused images) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker image prune) Tj
+T*
+(  docker image prune -a) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker   -> Docker CLI.) Tj
+T*
+(  image    -> Image management group.) Tj
+T*
+(  prune    -> Remove unused images.) Tj
+T*
+(  -a       -> Remove all unused images, not just dangling.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker image prune -a) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To recover disk space taken by unused images \(build leftovers, old tags\).) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(38. Docker Compose: up services) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern \(Compose v2\):) Tj
+T*
+(  docker compose up) Tj
+T*
+(  docker compose up -d) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker           -> Docker CLI.) Tj
+T*
+ET
+endstream
+endobj
+34 0 obj
+<< /Length 2314 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(  compose          -> Docker Compose v2 subcommand \(multi-container apps\).) Tj
+T*
+(  up               -> Create and start services defined in compose file.) Tj
+T*
+(  -d               -> Run in detached mode \(background\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker compose up -d) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To start full application stacks \(db + api + frontend + cache\) with one) Tj
+T*
+(    command based on docker-compose.yml.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(39. Docker Compose: stop and remove services) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker compose down) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker           -> Docker CLI.) Tj
+T*
+(  compose          -> Compose command group.) Tj
+T*
+(  down             -> Stop and remove containers, networks, etc created by up.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker compose down) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To tear down a complete stack cleanly between tests or deployments.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(40. Docker Compose: view service logs) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker compose logs) Tj
+T*
+(  docker compose logs -f SERVICE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker         -> Docker CLI.) Tj
+T*
+(  compose        -> Compose command group.) Tj
+T*
+(  logs           -> Show logs from all or specific services.) Tj
+T*
+(  -f             -> Follow logs in real time.) Tj
+T*
+(  SERVICE        -> Service name from compose file \(e.g., web, db\).) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker compose logs -f web) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To debug multi-service applications with a single command.) Tj
+T*
+(  - Essential during development and production incident triage.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(41. Docker Compose: list running services) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+35 0 obj
+<< /Length 1958 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+(Command pattern:) Tj
+T*
+(  docker compose ps) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker   -> Docker CLI.) Tj
+T*
+(  compose  -> Compose group.) Tj
+T*
+(  ps       -> Show containers/services managed by Compose stack.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker compose ps) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To quickly see which services are up, their ports, and status.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(42. Show image history \(layers\)) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command pattern:) Tj
+T*
+(  docker history IMAGE) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker   -> Docker CLI.) Tj
+T*
+(  history  -> Show history of image layers.) Tj
+T*
+(  IMAGE    -> Image name or ID.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker history myapp:1.0) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To debug image size, build steps, and layering.) Tj
+T*
+(  - Helpful for optimizing Dockerfiles.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(43. Save and load images \(tar files\)) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command patterns:) Tj
+T*
+(  docker save -o FILE.tar IMAGE) Tj
+T*
+(  docker load -i FILE.tar) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker        -> Docker CLI.) Tj
+T*
+(  save          -> Export image as tar archive.) Tj
+T*
+(  -o FILE.tar   -> Output tar file path.) Tj
+T*
+(  IMAGE         -> Image name/ID to export.) Tj
+T*
+(  load          -> Import image from tar archive.) Tj
+T*
+(  -i FILE.tar   -> Input tar file.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker save -o myapp.tar myapp:1.0) Tj
+T*
+(  docker load -i myapp.tar) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To move images between air-gapped environments or without registry.) Tj
+T*
+ET
+endstream
+endobj
+36 0 obj
+<< /Length 2173 >>
+stream
+BT
+/F1 10 Tf
+50 770 Td
+12 TL
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(44. Export and import containers \(filesystem\)) Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+() Tj
+T*
+(Command patterns:) Tj
+T*
+(  docker export CONTAINER > FILE.tar) Tj
+T*
+(  docker import FILE.tar IMAGE_NAME) Tj
+T*
+() Tj
+T*
+(Word-by-word:) Tj
+T*
+(  docker          -> Docker CLI.) Tj
+T*
+(  export          -> Export container filesystem to tar \(no history\).) Tj
+T*
+(  CONTAINER       -> Container name or ID.) Tj
+T*
+(  > FILE.tar      -> Shell redirection to file.) Tj
+T*
+(  import          -> Create image from tarball.) Tj
+T*
+(  IMAGE_NAME      -> Name for new image.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+(  docker export web1 > web1_fs.tar) Tj
+T*
+(  docker import web1_fs.tar web1-image:fs) Tj
+T*
+() Tj
+T*
+(Why it's used:) Tj
+T*
+(  - To create images from running containers or share entire filesystem state.) Tj
+T*
+() Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(Quick mental model for "docker run") Tj
+T*
+(-------------------------------------------------------------------------------) Tj
+T*
+(Think of:) Tj
+T*
+(  docker run [OPTIONS] IMAGE [COMMAND] [ARGS...]) Tj
+T*
+() Tj
+T*
+(- docker       : The CLI tool.) Tj
+T*
+(- run          : "Create + start container from image".) Tj
+T*
+(- [OPTIONS]    : Flags for interactive mode, ports, volumes, env, etc.) Tj
+T*
+(- IMAGE        : Template filesystem + default command.) Tj
+T*
+(- [COMMAND]    : Optional override of default command.) Tj
+T*
+(- [ARGS...]    : Arguments for that command.) Tj
+T*
+() Tj
+T*
+(Common patterns you will use daily as a DevOps engineer:) Tj
+T*
+(  docker run -it --rm IMAGE bash) Tj
+T*
+(  docker run -d --name NAME -p HOST:CONTAINER IMAGE) Tj
+T*
+(  docker run -d --name NAME -v HOST:CONTAINER IMAGE) Tj
+T*
+(  docker exec -it NAME bash) Tj
+T*
+(  docker logs -f NAME) Tj
+T*
+(  docker compose up -d) Tj
+T*
+(  docker compose logs -f SERVICE) Tj
+T*
+() Tj
+T*
+(Use this sheet as a quick map from "command words" to their meaning and day to) Tj
+T*
+(day DevOps use cases.) Tj
+T*
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 38
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000230 00000 n 
+0000000358 00000 n 
+0000000486 00000 n 
+0000000614 00000 n 
+0000000742 00000 n 
+0000000870 00000 n 
+0000000998 00000 n 
+0000001126 00000 n 
+0000001255 00000 n 
+0000001384 00000 n 
+0000001513 00000 n 
+0000001642 00000 n 
+0000001771 00000 n 
+0000001900 00000 n 
+0000002029 00000 n 
+0000002158 00000 n 
+0000002287 00000 n 
+0000002416 00000 n 
+0000004732 00000 n 
+0000006934 00000 n 
+0000009443 00000 n 
+0000011936 00000 n 
+0000014006 00000 n 
+0000016063 00000 n 
+0000018437 00000 n 
+0000020881 00000 n 
+0000023076 00000 n 
+0000025449 00000 n 
+0000027677 00000 n 
+0000029733 00000 n 
+0000032192 00000 n 
+0000034251 00000 n 
+0000036617 00000 n 
+0000038627 00000 n 
+0000040852 00000 n 
+trailer
+<< /Size 38 /Root 1 0 R >>
+startxref
+40921
+%%EOF
